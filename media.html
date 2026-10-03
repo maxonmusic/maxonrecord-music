@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Media gallery for MAXONRECORD ENTERTAINMENT.">
+    <meta name="keywords" content="record label media, music gallery, artist videos, image downloads">
+    <meta name="author" content="MAXONRECORD ENTERTAINMENT">
+
+    <title>Media | MAXONRECORD ENTERTAINMENT</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header" id="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span>MAXON</span>RECORD
+                <small>ENTERTAINMENT</small>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="navbar" id="navbar">
+                <a href="index.html">Home</a>
+                <a href="Artist.html">Artists</a>
+                <a href="release.html">Releases</a>
+                <a href="media.html">Media</a>
+                <a href="news.html">News</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <p class="section-label">MEDIA LIBRARY</p>
+                <h1>Music, Images <span>& Videos</span></h1>
+                <p>
+                    Discover, stream, download and enjoy the full media archive
+                    from MAXONRECORD ENTERTAINMENT.
+                </p>
+            </div>
+        </section>
+
+        <section class="section dark-section">
+            <div class="container">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="music">Music</button>
+                    <button class="filter-btn" data-filter="images">Images</button>
+                    <button class="filter-btn" data-filter="videos">Videos</button>
+                </div>
+
+                <div class="media-grid">
+                    <article class="media-card" data-category="music">
+                        <div class="media-icon">♫</div>
+                        <h3>my soul</h3>
+                        <p>Mayon XL — MP3 Audio</p>
+
+                        <audio controls>
+                            <source src="Assets/Music/my soul.wav" type="audio/mpeg">
+                            Your browser does not support audio.
+                        </audio>
+
+                        <a href="Assets/Music/my soul.wav" download class="btn btn-small">
+                            Download
+                        </a>
+                    </article>
+
+                    <article class="media-card" data-category="music">
+                        <div class="media-icon">♫</div>
+                        <h3>Sound of Freedom</h3>
+                        <p>Artist Two — MP3 Audio</p>
+
+                        <audio controls>
+                            <source src="assets/music/track-2.mp3" type="audio/mpeg">
+                            Your browser does not support audio.
+                        </audio>
+
+                        <a href="assets/music/track-2.mp3" download class="btn btn-small">
+                            Download
+                        </a>
+                    </article>
+
+                    <article class="media-card" data-category="images">
+                        <img src="assets/images/artist-1.jpg" alt="Artist One">
+                        <h3>Artist One</h3>
+                        <p>Official Press Photo</p>
+
+                        <a href="assets/images/artist-1.jpg" download class="btn btn-small">
+                            Download
+                        </a>
+                    </article>
+
+                    <article class="media-card" data-category="images">
+                        <img src="Assets/image/artist-1.PNG" alt="Artist Two">
+                        <h3>mayon xl</h3>
+                        <p>Official Press Photo</p>
+
+                        <a href="Assets/image/artist-1.PNG" download class="btn btn-small">
+                            Download
+                        </a>
+                    </article>
+
+                    <article class="media-card" data-category="images">
+                        <img src="Assets/image/my soul logo.png" alt="Midnight Dreams cover">
+                        <h3>My soul</h3>
+                        <p>Official Artwork</p>
+
+                        <a href="Assets/image/my soul logo.png" download class="btn btn-small">
+                            Download
+                        </a>
+                    </article>
+
+                    <article class="media-card" data-category="videos">
+                        <video controls poster="Assets/image/release-1.png">
+                            <source src="Assets/Videos/WAITING VIDEO .mp4" type="video/mp4">
+                            Your browser does not support video.
+                        </video>
+
+                        <h3>Official Music Video</h3>
+                        <p>MAXONRECORD Visual Release</p>
+                         <p> WAITING</p>
+                        <a href="Assets/Videos/WAITING VIDEO .mp4" download class="btn btn-small">
+                            Download
+                        </a>
+                    </article>
+
+                    <article class="media-card" data-category="videos">
+                        <video controls poster="Assets/image/hero.jpg">
+                            <source src="Assets/Videos/WAITING VIDEO .mp4" type="video/mp4">
+                            Your browser does not support video.
+                        </video>
+
+                        <h3>Studio Session</h3>
+                        <p>Live Recording Footage</p>
+
+                        <a href="Assets/Videos/WAITING VIDEO .mp4" download class="btn btn-small">
+                            Download
+                        </a>
+                    </article>
+
+                    <article class="media-card" data-category="images">
+                        <img src="Assets/image/logo.png" alt="Studio wall">
+                        <h3>Studio Moments</h3>
+                        <p>Backstage Visuals</p>
+
+                        <a href="Assets/image/release-1.png" download class="btn btn-small">
+                            Download
+                        </a>
+                    </article>
+
+                    <article class="media-card" data-category="music">
+                        <div class="media-icon">♫</div>
+                        <h3>my soul</h3>
+                        <p>Mayon Xl — MP3 Audio</p>
+
+                        <audio controls>
+                            <source src="Assets/Music/waiting track-1.wav" type="audio/mpeg">
+                            Your browser does not support audio.
+                        </audio>
+
+                        <a href="Assets/Music/waiting track-1.wav" download class="btn btn-small">
+                            Download
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <a href="index.html" class="logo">
+                <span>MAXON</span>RECORD
+                <small>ENTERTAINMENT</small>
+            </a>
+
+            <p>
+                © <span id="year"></span> MAXONRECORD ENTERTAINMENT.
+                All rights reserved.
+            </p>
+
+            <a href="#header" class="back-to-top">Back to top ↑</a>
+        </div>
+    </footer>
+
+    <div class="toast" id="toast"></div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
